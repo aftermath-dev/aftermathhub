@@ -12,7 +12,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = " Aftr Hub"
+      FileName = "Aftr Hub"
    },
 
    Discord = {
@@ -33,13 +33,122 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Aftermath Hub", 4483362458)
+local Tab = Window:CreateTab("Universal Scripts", 4483362458)
 
 local Section = Tab:CreateSection("Universal Scripts")
 
 local Button = Tab:CreateButton({
    Name = "Fly (Special)",
    Callback = function()
-   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "No Clip (script is bugged, sit for unbug)",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ESP",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VFly",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Rshade (RTX)",
+   Callback = function()
+   end,
+})
+
+local Tab = Window:CreateTab("Admin Scripts", 4483362458)
+
+local Section = Tab:CreateSection("Admin Scripts")
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fates",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+   end,
+})
+
+local Tab = Window:CreateTab("Game Scripts", 4483362458)
+
+local Section = Tab:CreateSection("Brookhaven")
+
+local Button = Tab:CreateButton({
+   Name = "Redz Hub",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "R4D Hub",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Rochips Panel",
+   Callback = function()
+   end,
+})
+
+local Section = Tab:CreateSection("Murder Mystery 2")
+
+local Button = Tab:CreateButton({
+   Name = "nexus",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Eclipse Hub (need a keyboard script)",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "XHUB",
+   Callback = function()
+   end,
+})
+
+local Section = Tab:CreateSection("Adopt Me")
+
+local Button = Tab:CreateButton({
+   Name = "Prodigy X",
+   Callback = function() loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Other", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "Keyboard",
+   Callback = function()
    end,
 })
