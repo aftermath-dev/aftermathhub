@@ -193,13 +193,13 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
    Name = "Ocean",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubo"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Serenity",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubs"))()
    end,
 })
 
