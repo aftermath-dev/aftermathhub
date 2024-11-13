@@ -175,31 +175,31 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
    Name = "Dark Blue",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubdb"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Green",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubg"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Light",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubl"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Ocean",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubo"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Serenity",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubs"))()
    end,
 })
 
