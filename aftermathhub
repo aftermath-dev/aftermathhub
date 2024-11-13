@@ -1,0 +1,101 @@
+```local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()```
+
+```lua
+local GUI = Mercury:Create{
+    Name = "Mercury",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+```
+
+
+```lua
+GUI:Notification{
+	Title = "Welcome!",
+	Text = "Welcome to Aftermath Hub! t.me/aftermathscript",
+	Duration = 3,
+	Callback = function() end
+}
+```
+
+
+```lua
+local Tab = GUI:Tab{
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://8569322835"
+}
+```
+
+```lua
+Tab:Button{
+	Name = "Infinite Yield",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+
+```lua
+Tab:Button{
+	Name = "Fates",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+
+```lua
+Tab:Button{
+	Name = "Nameless Admin",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+```lua
+local Tab = GUI:Tab{
+	Name = "Universal Scripts",
+	Icon = "rbxassetid://8569322835"
+}
+```
+
+
+```lua
+Tab:Button{
+	Name = "ESP",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+```lua
+Tab:Button{
+	Name = "Fly (special)",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+```lua
+Tab:Button{
+	Name = "No Clip",
+	Description = nil,
+	Callback = function() end
+}
+```
+
+```lua
+local Tab = GUI:Tab{
+	Name = "Brookhaven",
+	Icon = "rbxassetid://8569322835"
+}
+```
+
+```lua
+Tab:Button{
+	Name = "Redz Hub",
+	Description = nil,
+	Callback = function() end
+}
+```
