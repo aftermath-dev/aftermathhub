@@ -151,13 +151,13 @@ local Tab = Window:CreateTab("Themes", 4483362458)
 
 local Button = Tab:CreateButton({
    Name = "Default",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhub"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Amber Glow",
-   Callback = function()
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/aftermath-dev/aftermathhub/refs/heads/main/aftermathhubag"))()
    end,
 })
 
